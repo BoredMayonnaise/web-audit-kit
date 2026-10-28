@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.local
+verification/browser-*
+verification/*.pdf
+verification/*.png
+web-audit-kit-source.zip
+__pycache__/
+*.pyc
+
+web-audit-kit.zip
+
