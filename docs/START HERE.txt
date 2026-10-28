@@ -1,0 +1,48 @@
+WEB AUDIT KIT - START HERE
+
+1. Run: bash start.sh
+2. Choose Create a report and follow the five steps.
+3. Choose Explore the example if you want to see a fictional completed report.
+
+Linux/macOS: run the script with Bash.
+Windows: use WSL or Git Bash. Plain Command Prompt does not run .sh scripts.
+Keep the launcher with the project folder. It opens the browser application in dist/.
+When built output exists, Node.js and internet are not required.
+If output is missing, Node/npm are required to install dependencies and build.
+The launcher explains missing requirements; it does not install system software.
+Use bash start.sh --build to rebuild after editing source.
+
+KEEP THREE FILES SEPARATE
+Application (.html): Open this file whenever you want to use the tool.
+Editable project (.audit.json): Save project downloads your text, branding, and
+images. Check your Downloads folder and keep this backup somewhere you can find.
+Client report (.pdf): Export PDF creates the copy you send to your client.
+
+CONTINUING LATER
+Open the HTML application, choose "Open a saved project" on the welcome screen
+(or "Open project" in the editor), then select your .audit.json backup.
+Do not double-click the JSON backup to edit it. A PDF cannot restore your project.
+Local browser recovery is best effort and can disappear. Download a project backup.
+
+EXPORTING A PDF
+In Preview, select A4 or US Letter. Click Export PDF (or Export client PDF in the
+guide), choose Save as PDF in browser printing, and match the selected paper size.
+Use Portrait, 100% scale, Default margins, and turn off browser headers and footers.
+Inspect the PDF before sending it. Save the editable project as a separate backup.
+
+GETTING HELP
+Use Help in the navigation. Restart guide returns to the first step without
+changing your work. Exit guide hides the explanations. You can switch sections
+at any time; missing details do not prevent downloading or printing a draft.
+
+EXAMPLE
+brightside-cleaning.audit.json contains fictional demonstration content, including
+original illustrative screenshots. Choose Explore the example to use the built-in
+copy, or Open a saved project to load the supplied JSON.
+
+COMPATIBILITY
+Designed for desktop browsers on Windows, macOS, and Linux. This package does not
+install or change system software. Browser file access, downloads, storage, and
+PDF printing vary by browser and OS. Actual OS/browser certification and PDF visual
+checks could not be completed in the build sandbox; please test your browser before
+using it for a client delivery. Phones and tablets are not the release test target.
