@@ -12,6 +12,20 @@ If output is missing, Node/npm are required to install dependencies and build.
 The launcher explains missing requirements; it does not install system software.
 Use bash start.sh --build to rebuild after editing source.
 
+IF NO BROWSER WINDOW OPENS ON LINUX
+Try an installed alternative: bash start.sh --browser firefox
+For Chromium/Chrome Wayland or DRM errors, save other browser work and fully quit
+that browser. Then try: bash start.sh --safe-graphics
+This temporarily disables GPU acceleration and uses X11/XWayland when available.
+It selects an installed Chromium-family browser; it does not change your settings.
+If needed, select one: bash start.sh --browser google-chrome --safe-graphics
+These options are Linux-only. They cannot repair missing drivers or a broken desktop.
+The script prints the application path before opening it. You can also use your
+browser's Open File command and select dist/web-audit-kit.html directly.
+A completed launch request does not confirm that a browser window appeared.
+Use a local graphical desktop terminal. For SSH/X11 display failures, copy the
+project folder to your computer and open the app there.
+
 KEEP THREE FILES SEPARATE
 Application (.html): Open this file whenever you want to use the tool.
 Editable project (.audit.json): Save project downloads your text, branding, and
